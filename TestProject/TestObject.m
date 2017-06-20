@@ -9,7 +9,7 @@
 #import "TestObject.h"
 
 @implementation TestObject
-+(float)getTestFloat{
+-(float)getTestFloat{
     return 0.1;
 }
 @end
