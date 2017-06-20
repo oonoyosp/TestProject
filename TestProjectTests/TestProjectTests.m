@@ -7,6 +7,7 @@
 //
 
 #import <XCTest/XCTest.h>
+#import "TestObject.h"
 
 @interface TestProjectTests : XCTestCase
 
@@ -27,6 +28,9 @@
 - (void)testExample {
     // This is an example of a functional test case.
     // Use XCTAssert and related functions to verify your tests produce the correct results.
+    TestObject *obj = [[TestObject alloc] init];
+    
+    XCTAssertEqual([obj getTestFloat], 0.1f);
 }
 
 - (void)testPerformanceExample {

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		142548CB1EF8D43E0036EB82 /* TestObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 142548CA1EF8D43E0036EB82 /* TestObject.m */; };
 		9D0C05151EF8D2C70046CE8A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D0C05141EF8D2C70046CE8A /* main.m */; };
 		9D0C05181EF8D2C70046CE8A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D0C05171EF8D2C70046CE8A /* AppDelegate.m */; };
 		9D0C051B1EF8D2C70046CE8A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D0C051A1EF8D2C70046CE8A /* ViewController.m */; };
@@ -27,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		142548C91EF8D43E0036EB82 /* TestObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestObject.h; sourceTree = "<group>"; };
+		142548CA1EF8D43E0036EB82 /* TestObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestObject.m; sourceTree = "<group>"; };
 		9D0C05101EF8D2C70046CE8A /* TestProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D0C05141EF8D2C70046CE8A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9D0C05161EF8D2C70046CE8A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -90,6 +93,8 @@
 				9D0C05211EF8D2C70046CE8A /* LaunchScreen.storyboard */,
 				9D0C05241EF8D2C70046CE8A /* Info.plist */,
 				9D0C05131EF8D2C70046CE8A /* Supporting Files */,
+				142548C91EF8D43E0036EB82 /* TestObject.h */,
+				142548CA1EF8D43E0036EB82 /* TestObject.m */,
 			);
 			path = TestProject;
 			sourceTree = "<group>";
@@ -215,6 +220,7 @@
 			files = (
 				9D0C051B1EF8D2C70046CE8A /* ViewController.m in Sources */,
 				9D0C05181EF8D2C70046CE8A /* AppDelegate.m in Sources */,
+				142548CB1EF8D43E0036EB82 /* TestObject.m in Sources */,
 				9D0C05151EF8D2C70046CE8A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -414,6 +420,7 @@
 				9D0C05341EF8D2C70046CE8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9D0C05351EF8D2C70046CE8A /* Build configuration list for PBXNativeTarget "TestProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +429,7 @@
 				9D0C05371EF8D2C70046CE8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
