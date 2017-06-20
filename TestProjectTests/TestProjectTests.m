@@ -8,6 +8,7 @@
 
 #import <XCTest/XCTest.h>
 #import "TestObject.h"
+#import "UserObject.h"
 
 @interface TestProjectTests : XCTestCase
 
@@ -31,6 +32,11 @@
     TestObject *obj = [[TestObject alloc] init];
     
     XCTAssertEqual([obj getTestFloat], 0.1f);
+}
+
+-(void)testNewObject{
+    UserObject *obj = [[UserObject alloc] init];
+    XCTAssertEqualObjects([obj getUserName], @"DUCVTT");
 }
 
 - (void)testPerformanceExample {

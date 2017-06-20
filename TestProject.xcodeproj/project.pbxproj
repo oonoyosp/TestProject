@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		142548CB1EF8D43E0036EB82 /* TestObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 142548CA1EF8D43E0036EB82 /* TestObject.m */; };
+		14B203541EF8F28000D20F85 /* UserObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B203531EF8F28000D20F85 /* UserObject.m */; };
 		9D0C05151EF8D2C70046CE8A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D0C05141EF8D2C70046CE8A /* main.m */; };
 		9D0C05181EF8D2C70046CE8A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D0C05171EF8D2C70046CE8A /* AppDelegate.m */; };
 		9D0C051B1EF8D2C70046CE8A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D0C051A1EF8D2C70046CE8A /* ViewController.m */; };
@@ -30,6 +31,8 @@
 /* Begin PBXFileReference section */
 		142548C91EF8D43E0036EB82 /* TestObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestObject.h; sourceTree = "<group>"; };
 		142548CA1EF8D43E0036EB82 /* TestObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestObject.m; sourceTree = "<group>"; };
+		14B203521EF8F28000D20F85 /* UserObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserObject.h; sourceTree = "<group>"; };
+		14B203531EF8F28000D20F85 /* UserObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserObject.m; sourceTree = "<group>"; };
 		9D0C05101EF8D2C70046CE8A /* TestProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D0C05141EF8D2C70046CE8A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9D0C05161EF8D2C70046CE8A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -95,6 +98,8 @@
 				9D0C05131EF8D2C70046CE8A /* Supporting Files */,
 				142548C91EF8D43E0036EB82 /* TestObject.h */,
 				142548CA1EF8D43E0036EB82 /* TestObject.m */,
+				14B203521EF8F28000D20F85 /* UserObject.h */,
+				14B203531EF8F28000D20F85 /* UserObject.m */,
 			);
 			path = TestProject;
 			sourceTree = "<group>";
@@ -221,6 +226,7 @@
 				9D0C051B1EF8D2C70046CE8A /* ViewController.m in Sources */,
 				9D0C05181EF8D2C70046CE8A /* AppDelegate.m in Sources */,
 				142548CB1EF8D43E0036EB82 /* TestObject.m in Sources */,
+				14B203541EF8F28000D20F85 /* UserObject.m in Sources */,
 				9D0C05151EF8D2C70046CE8A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
