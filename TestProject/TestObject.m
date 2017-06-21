@@ -12,4 +12,7 @@
 -(float)getTestFloat{
     return 0.1;
 }
+-(NSString *)getName{
+    return @"DUCVTT";
+}
 @end
