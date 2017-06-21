@@ -10,4 +10,5 @@
 
 @interface TestObject : NSObject
 -(float) getTestFloat;
+-(NSString *) getName;
 @end
